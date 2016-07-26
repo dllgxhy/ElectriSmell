@@ -1,0 +1,25 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING:  [DRC0006]  Net has fewer than two connections R232
+                    SCHEMATIC1, MISC  (2.60, 5.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections DCD#
+                    SCHEMATIC1, MISC  (2.60, 4.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections CTS#
+                    SCHEMATIC1, MISC  (2.60, 4.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections RI#
+                    SCHEMATIC1, MISC  (2.60, 4.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections DTR#
+                    SCHEMATIC1, MISC  (2.60, 5.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections DSR#
+                    SCHEMATIC1, MISC  (2.60, 4.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections RTS#
+                    SCHEMATIC1, MISC  (2.60, 5.10) 
+
+Checking For Unconnected Bus Nets
+WARNING:  [DRC0008]  Two nets in same schematic have the same name, but there is no off-page connector SENSOR_PWR
+                    SCHEMATIC1, MPR7602  (16.50, 11.10) 

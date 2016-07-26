@@ -1,0 +1,12 @@
+*PADS-ECO-V9.5-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\PADS Projects\ecogtmp1.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2016/7/14 9:53:08
+*CHGPART*
+D12  MA737  RB160
+*NET*
+*SIGNAL*  N561038
+D12.K
+
+*REMARK*  Deleted pins: 0,  Added pins: 1
+*END*

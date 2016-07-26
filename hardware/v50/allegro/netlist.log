@@ -1,0 +1,20 @@
+{ Using PSTWRITER 16.3.0 p002Jul-07-2016 at 16:10:13 }
+
+#1 Warning [ALG0016] Part Name "100UF_6.3V_CAPAETR2_200P500X110_DISCRETE_100UF/6.3V" is renamed to "100UF_6.3V_CAPAETR2_200P500X110".
+#2 Warning [ALG0016] Part Name "VRS0402SR180030N_FUSC1005_IS0402Q_DISCRETE_18V" is renamed to "VRS0402SR180030N_FUSC1005_IS040".
+#3 Warning [ALG0016] Part Name "DIODE BREAKDOWN_0_SOD123_DIODE BREAKDOWN" is renamed to "DIODE BREAKDOWN_0_SOD123_DIODE".
+#4 Warning [ALG0016] Part Name "USB_MINI_AB_RECEPTACLE_MICROUSB-B_IO_MICRO USB AB 5" is renamed to "USB_MINI_AB_RECEPTACLE_MICROUSB".
+#5 Warning [ALG0016] Part Name "IND_1_INDS2_SUNLOARD_SWPA6045S_10UH" is renamed to "IND_1_INDS2_SUNLOARD_SWPA6045S_".
+#6 Warning [ALG0016] Part Name "SWITCH_SWICH_TORTOISES_DISCRETE_BUTTON" is renamed to "SWITCH_SWICH_TORTOISES_DISCRETE".
+#7 Warning [ALG0016] Part Name "CRYSTAL_DIP_XTALT2_488P_1150X500_1350HT_12MHZ" is renamed to "CRYSTAL_DIP_XTALT2_488P_1150X50".
+#8 Warning [ALG0016] Part Name "CRYSTAL_DIP_0_TROQ_32X25_16MHZ/15PF" is renamed to "CRYSTAL_DIP_0_TROQ_32X25_16MHZ/".
+Scanning netlist files ...
+
+Loading... j:\xuhy\git_proj\electrismell\hardware\v50\allegro/pstchip.dat
+
+Loading... j:\xuhy\git_proj\electrismell\hardware\v50\allegro/pstchip.dat
+
+Loading... j:\xuhy\git_proj\electrismell\hardware\v50\allegro/pstxprt.dat
+
+Loading... j:\xuhy\git_proj\electrismell\hardware\v50\allegro/pstxnet.dat
+packaging the design view...

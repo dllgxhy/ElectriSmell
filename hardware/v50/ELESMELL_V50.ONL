@@ -1,0 +1,3895 @@
+(PCB ELESMELL_V50
+ (description
+  (timeStamp "2016 07 14 01 52 31")
+  (program "CAPTURE.EXE" (Version "16.3.0.p002"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "July 14, 2016")
+  (document "J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component RT8293B
+   (place U12
+    (property 
+     ("PCB Footprint" "SOP8-OPT2")
+     (AtherosDescription "REG,RT8293B,3A, 23V,SYNC STEP DOWN CONV ,SO8")
+     (timestamp 00088C78)
+     ("Source Package" RT8293B)
+     (Value FR9888))))
+  (component IND_1
+   (place L7
+    (property 
+     ("PCB Footprint" "IND-SM-7.3X6.8")
+     (AtherosDescription "IND,SMT,4.7uH,+/-20%,HIGH CURRENT")
+     (timestamp 00088C88)
+     ("Source Package" IND_1)
+     (Tolerance +/20%)
+     (Value 10uH))))
+  (component "DIODE BREAKDOWN_3"
+   (place D2
+    (property 
+     ("PCB Footprint" MA737)
+     (timestamp 0008ACFD)
+     ("Source Package" "DIODE BREAKDOWN_3")
+     (Value IN4001)))
+   (place D6
+    (property 
+     ("PCB Footprint" MA737)
+     (timestamp 000993FA)
+     ("Source Package" "DIODE BREAKDOWN_3")
+     (Value IN4001))))
+  (component CRYSTAL14
+   (place Y2
+    (property 
+     ("PCB Footprint" X3225)
+     (timestamp 00023A0E)
+     ("Source Package" CRYSTAL14)
+     (Value 12Mhz/3v3)))
+   (place Y3
+    (property 
+     ("PCB Footprint" X3225)
+     (timestamp 00090434)
+     ("Source Package" CRYSTAL14)
+     (Value 12Mhz/3v3)))
+   (place Y4
+    (property 
+     ("PCB Footprint" X3225)
+     (timestamp 0009092D)
+     ("Source Package" CRYSTAL14)
+     (Value 12Mhz/3v3))))
+  (component NRF51822_3
+   (place U7
+    (property 
+     ("PCB Footprint" qfn48)
+     (timestamp 00023EBF)
+     ("Source Package" NRF51822_3)
+     (Value NRF51822))))
+  (component MMBT3904LT1_0
+   (place Q1
+    (property 
+     ("PCB Footprint" sot23)
+     (timestamp 0009947E)
+     ("Source Package" MMBT3904LT1_0)
+     (Value MMBT3904LT1))))
+  (component 240R_0402_1%
+   (place R1
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-07240RL")
+     (timestamp 0008956F)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-07240RL")
+     ("Source Package" 240R_0402_1%)
+     (MRVLPN "6360025-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.0004)
+     (Value 100)
+     (Descriptions RES,THK,0402,240,1%,63mW)))
+   (place R2
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-07240RL")
+     (timestamp 000A2D91)
+     ("Part Number" "RC0402FR-07240RL")
+     (Vendor YAGEO)
+     ("Source Package" 240R_0402_1%)
+     (MRVLPN "6360025-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.0004)
+     (Value 10K)
+     (Descriptions RES,THK,0402,240,1%,63mW)))
+   (place R3
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-07240RL")
+     (timestamp 000A2DCF)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-07240RL")
+     ("Source Package" 240R_0402_1%)
+     (MRVLPN "6360025-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.0004)
+     (Value 10K)
+     (Descriptions RES,THK,0402,240,1%,63mW)))
+   (place R4
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-07240RL")
+     (timestamp 0008955F)
+     ("Part Number" "RC0402FR-07240RL")
+     (Vendor YAGEO)
+     ("Source Package" 240R_0402_1%)
+     (MRVLPN "6360025-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.0004)
+     (Value 330)
+     (Descriptions RES,THK,0402,240,1%,63mW)))
+   (place R6
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-07240RL")
+     (timestamp 0008954B)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-07240RL")
+     ("Source Package" 240R_0402_1%)
+     (MRVLPN "6360025-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.0004)
+     (Value 224)
+     (Descriptions RES,THK,0402,240,1%,63mW))))
+  (component CRYSTAL_DIP_0
+   (place Y6
+    (property 
+     (Vendor_P/N 12MHz_18pF)
+     ("PCB Footprint" X3225)
+     (timestamp 0002471D)
+     ("Part Number" 12MHz/18pF)
+     (Vendor TXC)
+     ("Source Package" CRYSTAL_DIP_0)
+     (MRVLPN "6350020-00")
+     (Value 16MHz/15pF)
+     (Descriptions "TXC,DIP HC-49S 9B SERIES,12MHz/18pF,30PPM,Fundamental")))
+   (place Y7
+    (property 
+     ("PCB Footprint" X3225)
+     (Vendor_P/N 12MHz_18pF)
+     (timestamp 000AE0A3)
+     ("Part Number" 12MHz/18pF)
+     (Vendor TXC)
+     ("Source Package" CRYSTAL_DIP_0)
+     (MRVLPN "6350020-00")
+     (Value 12Hz/15pF)
+     (Descriptions "TXC,DIP HC-49S 9B SERIES,12MHz/18pF,30PPM,Fundamental"))))
+  (component TP4056_0
+   (place U9
+    (property 
+     ("PCB Footprint" sop8)
+     (timestamp 0008CB91)
+     ("Source Package" TP4056_0)
+     (Value TP4056))))
+  (component "AT24C08C-SSHM-T_0"
+   (place U1
+    (property 
+     ("PCB Footprint" sop8)
+     (timestamp 000A2C4C)
+     ("Source Package" "AT24C08C-SSHM-T_0")
+     (Value AT24C08C))))
+  (component LED
+   (place D1
+    (property 
+     ("PCB Footprint" LED0603)
+     (timestamp 00089465)
+     ("Source Package" LED)
+     (Value RED_LED)))
+   (place D4
+    (property 
+     ("PCB Footprint" LED0603)
+     (timestamp 0008CBD9)
+     ("Source Package" LED)
+     (Value RLED)))
+   (place D5
+    (property 
+     ("PCB Footprint" LED0603)
+     (timestamp 0008CBE9)
+     ("Source Package" LED)
+     (Value GLED)))
+   (place D7
+    (property 
+     ("PCB Footprint" LED0603)
+     (timestamp 00099736)
+     ("Source Package" LED)
+     (Value GLED))))
+  (component 47K_0402_5%
+   (place R57
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402JR-0747KL")
+     (timestamp 00089058)
+     ("Part Number" "RC0402JR-0747KL")
+     (Vendor YAGEO)
+     ("Source Package" 47K_0402_5%)
+     (MRVLPN "6360043-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.00036)
+     (Value 0/NC)
+     (Descriptions RES,THK,0402,47K,5%,63mW)))
+   (place R58
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402JR-0747KL")
+     (timestamp 00088FBA)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402JR-0747KL")
+     ("Source Package" 47K_0402_5%)
+     (MRVLPN "6360043-00")
+     ("Part Type" Resistor)
+     ("Unit_Price($)" 0.00036)
+     (Value 100K)
+     (Descriptions RES,THK,0402,47K,5%,63mW))))
+  (component DIODE_shock_0
+   (place D12
+    (property 
+     ("PCB Footprint" RB160)
+     (timestamp 000B1E54)
+     ("Source Package" DIODE_shock_0)
+     (Value IN4001))))
+  (component LN2305
+   (place M1
+    (property 
+     ("PCB Footprint" sot23_g_s_d)
+     (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC| ")
+     (timestamp 00099B49)
+     (DVTH 0)
+     ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+     ("Source Package" LN2305)
+     (DRDSON 0)
+     (Implementation BSK204SP_L1)
+     (Value LN2305)
+     (DGFS 0)
+     (DC 0)))
+   (place M2
+    (property 
+     ("PCB Footprint" sot23_g_s_d)
+     (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC|")
+     (timestamp 0009A30E)
+     (DVTH 0)
+     ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+     ("Source Package" LN2305)
+     (DRDSON 0)
+     (Implementation BSK204SP_L1)
+     (Value LN2305)
+     (DGFS 0)
+     (DC 0)))
+   (place M3
+    (property 
+     ("PCB Footprint" sot23_g_s_d)
+     (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC| ")
+     (timestamp 0009A40C)
+     (DVTH 0)
+     ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+     ("Source Package" LN2305)
+     (DRDSON 0)
+     (Implementation BSK204SP_L1)
+     (Value LN2305)
+     (DGFS 0)
+     (DC 0)))
+   (place M4
+    (property 
+     ("PCB Footprint" sot23_g_s_d)
+     (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC|")
+     (timestamp 000993D8)
+     (DVTH 0)
+     ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+     ("Source Package" LN2305)
+     (DRDSON 0)
+     (Implementation BSK204SP_L1)
+     (Value LN2305)
+     (DGFS 0)
+     (DC 0)))
+   (place M5
+    (property 
+     ("PCB Footprint" sot23_g_s_d)
+     (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC| ")
+     (timestamp 000993EA)
+     (DVTH 0)
+     ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+     ("Source Package" LN2305)
+     (DRDSON 0)
+     (Implementation BSK204SP_L1)
+     (Value LN2305)
+     (DGFS 0)
+     (DC 0))))
+  (component L
+   (place L6
+    (property 
+     (CURRENT LMAX)
+     ("PCB Footprint" "IND-SM-7.3X6.8")
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 IL1=@IL1 IL2=@IL2|")
+     (DIELECTRIC DSMAX)
+     (timestamp 0008AC61)
+     (DIST FLAT)
+     ("Source Package" L)
+     (IL1 0)
+     (IL2 0)
+     (Value 33uH)
+     (TC1 0)
+     (TC2 0))))
+  (component 10NF_0402_X7R_25V
+   (place C50
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00099384)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.1uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C51
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 000AF026)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C52
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 000B0875)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C20
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 0008E02C)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 12p)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C53
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00099516)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C21
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0402)
+     (timestamp 0002412A)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.4pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C22
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0402)
+     (timestamp 00024054)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 1.5pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C23
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0402)
+     (timestamp 0002415A)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 1.5pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C24
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0008ED42)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 12p)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C25
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00024307)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 47nF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C26
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 000242ED)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 2.2nF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C27
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0002495E)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 12p)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C28
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00024763)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 2.2pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C2
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0009C74D)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.01uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C3
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0009C77D)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.01uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C4
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0009C75D)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C5
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0009C78D)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C61
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 000AE0CF)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 22pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C62
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 000AE0EB)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 22pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C30
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0002494E)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 12p)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C31
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 000247D1)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 2.2pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C10
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 0009A206)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.1uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C13
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0009A348)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.1uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C47
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00099EB8)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.1uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C16
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 0009A446)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 0.1uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C49
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 00099394)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 10uF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C17
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0603)
+     (timestamp 0008DEF8)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM155R71E103KA01D)
+     (Vendor Murata)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 1.0nF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C18
+    (property 
+     (Vendor_P/N GRM155R71E103KA01D)
+     ("PCB Footprint" C0402)
+     (timestamp 00024040)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 2.2pF)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%)))
+   (place C19
+    (property 
+     ("PCB Footprint" C0603)
+     (Vendor_P/N GRM155R71E103KA01D)
+     (timestamp 0008E906)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     (Vendor Murata)
+     ("Part Number" GRM155R71E103KA01D)
+     ("Source Package" 10NF_0402_X7R_25V)
+     (MRVLPN "6310000-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.00065)
+     (Value 12p)
+     (Descriptions CAP,X7R,0402,0.01uF,25V,10%))))
+  (component ME6206M33
+   (place U13
+    (property 
+     ("PCB Footprint" sot23)
+     (timestamp 00099360)
+     ("Source Package" ME6206M33)
+     (Value ME6206M3))))
+  (component XL6009E1
+   (place U10
+    (property 
+     ("PCB Footprint" "to263-5")
+     (timestamp 0008A693)
+     ("Source Package" XL6009E1)
+     (Value XL6009E1))))
+  (component "HEADER 2"
+   (place J3
+    (property 
+     ("PCB Footprint" "DIP2-2_0")
+     (timestamp 0008CAE1)
+     ("Source Package" "HEADER 2")
+     (Value BAT)))
+   (place J4
+    (property 
+     ("PCB Footprint" "DIP2-2_0")
+     (timestamp 000A0DD3)
+     ("Source Package" "HEADER 2")
+     (Value FAN))))
+  (component "4 HEADER"
+   (place J1
+    (property 
+     ("PCB Footprint" CON4)
+     (timestamp 0009AD21)
+     ("Source Package" "4 HEADER")
+     (Value "4 HEADER"))))
+  (component 100UF_0.3V
+   (place C32
+    (property 
+     (Vendor_P/N 100UF/6.3V)
+     ("PCB Footprint" "CAP-ELECT-TH-100")
+     (CLASS DISCRETE)
+     (timestamp 000A1AC5)
+     (Datasheet "D:\\Datasheet\\HUAWEI\\071-073(SF).PDF")
+     ("Part Number" 100UF_6.3V)
+     (Vendor "CHANGZHOU HUAWEI")
+     ("Source Package" 100UF_0.3V)
+     (MRVLPN "6310002-00")
+     ("Part Type" ELC_CAP)
+     ("Unit_Price($)" 0.0067)
+     (Value 100uF/25V)
+     (Descriptions "CAP,100UF/6.3V,CD288 SERIES, 5*11(D*L)"))))
+  (component RES
+   (place R31
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-0713K3L")
+     (timestamp 0008EAA1)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 0/NC)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R32
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N "RC0402FR-0713K3L")
+     (timestamp 0008E9BC)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 0R)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R33
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 0008E08A)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 12K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R5
+    (property 
+     ("PCB Footprint" R0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 000894C3)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 "KOA SPEER")
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (MFG_PN01 RK73H1ETTP1002F)
+     (Value 1k)))
+   (place R35
+    (property 
+     ("PCB Footprint" R0805)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 0008CB25)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 "KOA SPEER")
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (MFG_PN01 RK73H1ETTP1002F)
+     (Value 0R)))
+   (place R7
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 000A0EE1)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 0)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R8
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 000A0F10)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 0)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R37
+    (property 
+     ("PCB Footprint" R1206)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 000A087D)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 "KOA SPEER")
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (MFG_PN01 RK73H1ETTP1002F)
+     (Value 0)))
+   (place R38
+    (property 
+     ("PCB Footprint" R1206)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 000A0991)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 "KOA SPEER")
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (MFG_PN01 RK73H1ETTP1002F)
+     (Value 0)))
+   (place R9
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 0009C73D)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 10K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R39
+    (property 
+     ("PCB Footprint" R0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 0008CBFD)
+     (MFG_NAME01 "KOA SPEER")
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (MFG_PN01 RK73H1ETTP1002F)
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (Value 1k)))
+   (place R40
+    (property 
+     ("PCB Footprint" R0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 0008CAA9)
+     (MFG_NAME01 "KOA SPEER")
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (MFG_PN01 RK73H1ETTP1002F)
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (Value 1k)))
+   (place R42
+    (property 
+     ("PCB Footprint" R0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "RES MF 10.0K 1/16W 1% AEC-Q200 0402")
+     (timestamp 0008CBA1)
+     (FPLIST RC0402_25,RC0402_HD,0402_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 "KOA SPEER")
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (AGILE_PN "470-75416")
+     (SIGNAL_MODEL DEFAULT_RESISTOR_10000OHM_2_1)
+     (MFG_PN01 RK73H1ETTP1002F)
+     (Value 1.2K)))
+   (place R49
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R1206)
+     (timestamp 00099408)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 0)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R50
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 0009979E)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 1K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R51
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 00099468)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 1M)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R52
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 00099558)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 10K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R53
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 0009942C)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 100K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R54
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 0009956C)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 47K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R55
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 000994F2)
+     (Vendor YAGEO)
+     ("Part Number" "RC0402FR-0713K3L")
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 47K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW)))
+   (place R56
+    (property 
+     (Vendor_P/N "RC0402FR-0713K3L")
+     ("PCB Footprint" R0603)
+     (timestamp 00099502)
+     ("Part Number" "RC0402FR-0713K3L")
+     (Vendor YAGEO)
+     ("Source Package" RES)
+     (MRVLPN "6360070-00")
+     ("Part Type" Resistor)
+     (Value 47K)
+     (Descriptions RES,THK,0402,13.3K,1%,63mW))))
+  (component 74LVC4245A_0
+   (place U3
+    (property 
+     ("PCB Footprint" TSSOP24)
+     (timestamp 0009C6B3)
+     ("Source Package" 74LVC4245A_0)
+     (Value 74LVC4245A))))
+  (component Potentiometer_0
+   (place U11
+    (property 
+     ("PCB Footprint" "DIP3-2_54A")
+     (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}")
+     (timestamp 0008BFE8)
+     ("Source Package" Potentiometer_0)
+     (SET 0.5)
+     (Value 10K))))
+  (component CH340G
+   (place U2
+    (property 
+     ("PCB Footprint" SOP16)
+     (timestamp 00092798)
+     ("Source Package" CH340G)
+     (Value CH340G))))
+  (component CRYSTAL_DIP
+   (place Y5
+    (property 
+     (Vendor_P/N 12MHz_18pF)
+     ("PCB Footprint" SMD3215)
+     (timestamp 0002493E)
+     ("Part Number" 12MHz/18pF)
+     (Vendor TXC)
+     ("Source Package" CRYSTAL_DIP)
+     (MRVLPN "6350020-00")
+     (Value 36.768k)
+     (Descriptions "TXC,DIP HC-49S 9B SERIES,12MHz/18pF,30PPM,Fundamental"))))
+  (component Motor_0
+   (place M6
+    (property 
+     ("PCB Footprint" "DIP3-2_54A")
+     (timestamp 000863D8)
+     ("Source Package" Motor_0)
+     (Value Motor)))
+   (place M7
+    (property 
+     ("PCB Footprint" "DIP3-2_54A")
+     (timestamp 000864FE)
+     ("Source Package" Motor_0)
+     (Value Motor)))
+   (place M8
+    (property 
+     ("PCB Footprint" "DIP3-2_54A")
+     (timestamp 00086631)
+     ("Source Package" Motor_0)
+     (Value Motor))))
+  (component CAP
+   (place C60
+    (property 
+     (Vendor_P/N GRM188R71E105KA12D)
+     ("PCB Footprint" C0603)
+     (timestamp 0008901C)
+     (Datasheet D:\\Datasheet\\MURATA\\murata_cap.PDF)
+     ("Part Number" GRM188R71E105KA12D)
+     (Vendor Murata)
+     ("Source Package" CAP)
+     (MRVLPN "6310034-00")
+     ("Part Type" CAP)
+     ("Unit_Price($)" 0.014400)
+     (Value 4.7uF/25V)
+     (Descriptions CAP,C0G,0603,1uF,25V,10%)))
+   (place C34
+    (property 
+     (Voltage 25V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 0008A949)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 0.1uF)))
+   (place C36
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 0008A7BF)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 47uF)))
+   (place C37
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 0008A79B)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 0.1uF)))
+   (place C38
+    (property 
+     (Voltage 25V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.01uF,+/-10%,25V")
+     (timestamp 00088B6E)
+     ("Source Package" CAP)
+     (Tolerance "+/-10%")
+     (Value 0.01uF)))
+   (place C39
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 00088CB4)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 0.1uF)))
+   (place C40
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 00088B06)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 10uF)))
+   (place C41
+    (property 
+     (Voltage 10V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X5R,0.1uF,+/-10%,10V")
+     (timestamp 00088C12)
+     ("Source Package" CAP)
+     (Tolerance "+/-10%")
+     (Value 0.1uF)))
+   (place C43
+    (property 
+     (Voltage 6.3V)
+     ("PCB Footprint" C0805)
+     (AtherosDescription "CAP,0805,X5R,22uF,+/-20%,6.3V")
+     (timestamp 00088C9C)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 22uF)))
+   (place C44
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 00088D0C)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 0.1uF)))
+   (place C45
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,0.1uF,+/-20%,16V")
+     (timestamp 00088CCC)
+     ("Source Package" CAP)
+     (Tolerance "+/-20%")
+     (Value 0.1uF)))
+   (place C46
+    (property 
+     (Voltage 50V)
+     ("PCB Footprint" C0603)
+     (AtherosDescription "CAP,0402,X7R,2200pF,+/-10%,50V")
+     (timestamp 00088BAC)
+     (NO_STUFF NO_STUFF)
+     ("Source Package" CAP)
+     (Tolerance "+/-10%")
+     (Value 2200pF))))
+  (component SWD_CONNECT
+   (place U8
+    (property 
+     ("PCB Footprint" dip3x2_2r54)
+     (timestamp 000A73CE)
+     ("Source Package" SWD_CONNECT)
+     (Value SWD))))
+  (component L0402_2.7NH_ACX
+   (place L1
+    (property 
+     ("PCB Footprint" l0603)
+     (timestamp 0008E070)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 15nH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L2
+    (property 
+     ("PCB Footprint" l0603)
+     (timestamp 0008E056)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 10uH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L3
+    (property 
+     ("PCB Footprint" L0402)
+     (timestamp 000240A8)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 3.3nH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L4
+    (property 
+     ("PCB Footprint" L0402)
+     (timestamp 00024088)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 4.7nH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L5
+    (property 
+     ("PCB Footprint" L0402)
+     (timestamp 00024254)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 10nH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L8
+    (property 
+     ("PCB Footprint" l0603)
+     (timestamp 000A6152)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 10uH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT")))
+   (place L9
+    (property 
+     ("PCB Footprint" L0805)
+     (timestamp 000A76CA)
+     ("Source Package" L0402_2.7NH_ACX)
+     (Value 15nH)
+     (VENDER\\PN "ACX\\HI1005-1C2N7SMT"))))
+  (component R
+   (place R25
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009A825)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 510)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R26
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009097B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R59
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 000AF3BB)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R27
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009A420)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1K)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R60
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 000AF3D8)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R30
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00090947)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R10
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 000238B0)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 10k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R11
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00023898)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 10k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R12
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00023840)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 10k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R13
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00023A5C)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R14
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00099B79)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1K)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R15
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009A8F4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 510)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R18
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00023A22)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R19
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 00090482)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R20
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009A322)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1K)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R21
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009A8BE)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 510)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R22
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" R0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+     (timestamp 0009044E)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 0)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0))))
+  (component "SW PUSHBUTTON"
+   (place SW1
+    (property 
+     ("PCB Footprint" SW4)
+     (timestamp 000AEF0D)
+     ("Source Package" "SW PUSHBUTTON")
+     (Value "SW PUSHBUTTON")))
+   (place SW2
+    (property 
+     ("PCB Footprint" SW4)
+     (timestamp 000AECED)
+     ("Source Package" "SW PUSHBUTTON")
+     (Value "SW PUSHBUTTON")))
+   (place SW3
+    (property 
+     ("PCB Footprint" SW4)
+     (timestamp 000AED7C)
+     ("Source Package" "SW PUSHBUTTON")
+     (Value "SW PUSHBUTTON"))))
+  (component VRS0402SR180030N
+   (place D3
+    (property 
+     ("PCB Footprint" R0603)
+     (Vendor_P/N VRS0402SR180030N)
+     (CLASS DISCRETE)
+     (timestamp 00092BEA)
+     (Datasheet "D:\\Datasheet\\YAGEO\\Data sheet_MLV (0402,0603,0805,1206).pdf")
+     ("Part Number" VRS0402SR180030N)
+     (Vendor YAGEO)
+     ("Source Package" VRS0402SR180030N)
+     (MRVLPN "6330000-00")
+     ("Part Type" ESD)
+     ("Unit_Price($)" 0.00155)
+     (Value 18V)
+     (Descriptions "VARISTOR, 0402, 18V, 3PF"))))
+  (component Antenna_0
+   (place ANT1
+    (property 
+     ("PCB Footprint" ANT_3)
+     (timestamp 0002406C)
+     ("Part Number" PCB_ANT)
+     ("Source Package" Antenna_0)
+     (MRVLPN "6350050-00")
+     (Value PCB_ANT)
+     (Descriptions "PCB ANTENNA, FOR 2.4GHz & 5GHz Band"))))
+  (component RES_0
+   (place R43
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,39K OHMS,+/-5%,1/16W")
+     (timestamp 00098B55)
+     (NO_STUFF NO_STUFF)
+     (WATTAGE 1/16W)
+     ("Source Package" RES_0)
+     (Tolerance "+/-5%")
+     (Value 47K)))
+   (place R44
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,39K OHMS,+/-5%,1/16W")
+     (timestamp 0008A927)
+     (WATTAGE 1/16W)
+     (NO_STUFF NO_STUFF)
+     ("Source Package" RES_0)
+     (Tolerance "+/-5%")
+     (Value 1K)))
+   (place R45
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,10K OHMS,+/-5%,1/16W")
+     (timestamp 00088CE4)
+     (WATTAGE 1/16W)
+     ("Source Package" RES_0)
+     (Tolerance "+/-5%")
+     (Value 10K)))
+   (place R46
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,62K OHMS,+/-5%,1/16W")
+     (timestamp 00088BD2)
+     (WATTAGE 1/16W)
+     ("Source Package" RES_0)
+     (Tolerance "+/-5%")
+     (Value 44.2K)))
+   (place R47
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,39K OHMS,+/-5%,1/16W")
+     (timestamp 00088B92)
+     (WATTAGE 1/16W)
+     (NO_STUFF NO_STUFF)
+     ("Source Package" RES_0)
+     (Tolerance "+/-5%")
+     (Value 39K)))
+   (place R48
+    (property 
+     ("PCB Footprint" R0603)
+     (AtherosDescription "RES,0402,11.8K OHMS,+/-1%,1/16W")
+     (timestamp 00088BEA)
+     (WATTAGE 1/16W)
+     ("Source Package" RES_0)
+     (Tolerance "+/-1%")
+     (Value 10K))))
+  (component CAP_NP
+   (place C54
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 00086659)
+     (HEIGHT 1.0MM)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 TDK)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (MFG_PN01 C1608X5R0J106KT)
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (Value 100nF)
+     (WVDC 6.3V)))
+   (place C55
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 0008666F)
+     (HEIGHT 1.0MM)
+     (MFG_NAME01 TDK)
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (MFG_PN01 C1608X5R0J106KT)
+     (Value 10UF)
+     (WVDC 6.3V)))
+   (place C56
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 00086400)
+     (HEIGHT 1.0MM)
+     (MFG_NAME01 TDK)
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (MFG_PN01 C1608X5R0J106KT)
+     (Value 100nF)
+     (WVDC 6.3V)))
+   (place C57
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 00086412)
+     (HEIGHT 1.0MM)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 TDK)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (MFG_PN01 C1608X5R0J106KT)
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (Value 10UF)
+     (WVDC 6.3V)))
+   (place C58
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 00086526)
+     (HEIGHT 1.0MM)
+     (MFG_NAME01 TDK)
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (MFG_PN01 C1608X5R0J106KT)
+     (Value 100nF)
+     (WVDC 6.3V)))
+   (place C59
+    (property 
+     (VOLTAGE 6.3V)
+     ("PCB Footprint" C0603)
+     (CLASS DISCRETE)
+     (DESCRIPTION "CAP CER 10UF 6.3V 10% X5R 0603")
+     (timestamp 0008653C)
+     (HEIGHT 1.0MM)
+     (MFG_NAME01 TDK)
+     (ROHS Yes)
+     (CAD_APPROVED Yes)
+     (FPLIST CC0603_OV,CC0603,0603_CC)
+     ("Source Package" CAP_NP)
+     (Tolerance 10%)
+     (AGILE_PN "150-77832")
+     (SIGNAL_MODEL DEFAULT_CAPACITOR_1e+07pF_2_1)
+     (MFG_PN01 C1608X5R0J106KT)
+     (Value 10UF)
+     (WVDC 6.3V))))
+  (component BAT54
+   (place D9
+    (property 
+     (Vendor_P/N BAT54)
+     ("PCB Footprint" sot23)
+     (timestamp 0009953C)
+     (Datasheet D:\\Datasheet\\FAIRCHILD\\BAT54C.pdf)
+     (Vendor FAIRCHILD)
+     ("Part Number" BAT54)
+     ("Source Package" BAT54)
+     (MRVLPN "6330116-00")
+     ("Part Type" DIODE)
+     (Value BAT54)
+     (Descriptions "Schottky Diodes 30V 200mA"))))
+  (component USB_MINI_AB_RECEPTACLE
+   (place J2
+    (property 
+     ("PCB Footprint" USB_MICRO_5P/F_SMT)
+     (CLASS IO)
+     (DESCRIPTION "CON 1X5 USB_MICRO_AB_RECEPTACLE RA SMT 0.65MM SP 105H AU")
+     (timestamp 0008CB5B)
+     (HEIGHT 2.65MM)
+     (FPLIST con5_microusb,con5_microusb_cust)
+     (CAD_APPROVED Yes)
+     (ROHS Yes)
+     (MFG_NAME01 Molex)
+     ("Source Package" USB_MINI_AB_RECEPTACLE)
+     (AGILE_PN "211-78722")
+     (MFG_PN01 "47589-0001")
+     (Value "MICRO USB AB 5"))))
+  (component C
+   (place C1
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 0008953B)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 0.01uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C8
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 00023B4C)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 0.1uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C9
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 00023B5C)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C33
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 0008CBC9)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C35
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 0008CAC1)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C11
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 000904F6)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 0.1uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C12
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 00090506)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C14
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 000909EF)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 0.1uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C15
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" C0603)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+     (timestamp 000909FF)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0))))
+  (component mpr7612_2
+   (place U4
+    (property 
+     ("PCB Footprint" "DIP2X6-1_27MM")
+     (timestamp 0002386E)
+     ("Source Package" mpr7612_2)
+     (Value MPR7612)))
+   (place U5
+    (property 
+     ("PCB Footprint" "DIP2X6-1_27MM")
+     (timestamp 0009031C)
+     ("Source Package" mpr7612_2)
+     (Value MPR7612)))
+   (place U6
+    (property 
+     ("PCB Footprint" "DIP2X6-1_27MM")
+     (timestamp 00090815)
+     ("Source Package" mpr7612_2)
+     (Value MPR7612))))
+  (component L9110S
+   (place U14
+    (property 
+     ("PCB Footprint" sop8)
+     (timestamp 000890DA)
+     ("Source Package" L9110S)
+     (Value L9110S)))))
+ (library
+  (image R
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (TC2 0)
+    (TC1 0)
+    (POWER RMAX)
+    (MAX_TEMP RTMAX)
+    (SLOPE RSMAX)
+    (VOLTAGE RVMAX)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (DIST FLAT))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image ME6206M33
+   (property 
+    (sourcelib I:\\CADENCE_LIB\\LIB\\ALLEGROLIB\\LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname VSS)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname VOUT)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname VIN)
+     (pintype 4))))
+  (image 47K_0402_5%
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\RES.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image L9110S
+   (property 
+    (sourcelib E:\\PROJECT\\JZCX_1\\HARDWARE\\Éè¼ÆÎÄµµ\\LIBRARY1.OLB))
+   (pin 999 2
+    (property 
+     (pinname VCC1)
+     (pintype 7)))
+   (pin 999 3
+    (property 
+     (pinname VCC2)
+     (pintype 7)))
+   (pin 999 5
+    (property 
+     (pinname GND1)
+     (pintype 7)))
+   (pin 999 8
+    (property 
+     (pinname GND2)
+     (pintype 7)))
+   (pin 999 6
+    (property 
+     (pinname IA)
+     (pintype 7)))
+   (pin 999 7
+    (property 
+     (pinname IB)
+     (pintype 7)))
+   (pin 999 1
+    (property 
+     (pinname OA)
+     (pintype 7)))
+   (pin 999 4
+    (property 
+     (pinname OB)
+     (pintype 7))))
+  (image 10NF_0402_X7R_25V
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\CAP.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CAP_NP
+   (property 
+    (sourcelib Q:\\ORCADCIS\\SYMBOLS\\FCL_CAPACITOR.OLB)
+    (CLASS DISCRETE))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "AT24C08C-SSHM-T_0"
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname A1/NC)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname A2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname SDA)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname SCL)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname WP)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname VDD)
+     (pintype 4))))
+  (image CH340G
+   (property 
+    (sourcelib I:\\CADENCE_LIB\\LIB\\ALLEGROLIB\\LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 16
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 5
+    (property 
+     (pinname D+)
+     (pintype 7)))
+   (pin 999 6
+    (property 
+     (pinname "D-")
+     (pintype 7)))
+   (pin 999 7
+    (property 
+     (pinname XI)
+     (pintype 7)))
+   (pin 999 8
+    (property 
+     (pinname XO)
+     (pintype 7)))
+   (pin 999 9
+    (property 
+     (pinname CTS#)
+     (pintype 7)))
+   (pin 999 14
+    (property 
+     (pinname RTS#)
+     (pintype 7)))
+   (pin 999 3
+    (property 
+     (pinname RXD)
+     (pintype 7)))
+   (pin 999 2
+    (property 
+     (pinname TXD)
+     (pintype 7)))
+   (pin 999 13
+    (property 
+     (pinname DTR#)
+     (pintype 7)))
+   (pin 999 12
+    (property 
+     (pinname DCD#)
+     (pintype 7)))
+   (pin 999 11
+    (property 
+     (pinname RI#)
+     (pintype 7)))
+   (pin 999 10
+    (property 
+     (pinname DSR#)
+     (pintype 7)))
+   (pin 999 15
+    (property 
+     (pinname R232)
+     (pintype 7)))
+   (pin 999 4
+    (property 
+     (pinname V3)
+     (pintype 7))))
+  (image 74LVC4245A_0
+   (property 
+    (sourcelib J:\\XUHY\\ELECTRISMELL\\XIAOHE\\ELECTRISMELL.DSN))
+   (pin 999 1
+    (property 
+     (pinname 5V)
+     (pintype 7)))
+   (pin 999 2
+    (property 
+     (pinname DIR)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname A0)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname A1)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname A2)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname A3)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname A4)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname A5)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname A6)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname A7)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname 3V3_1)
+     (pintype 7)))
+   (pin 999 24
+    (property 
+     (pinname 3V3_2)
+     (pintype 7)))
+   (pin 999 22
+    (property 
+     (pinname OE)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname B0)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname B1)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname B2)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname B3)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname B4)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname B5)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname B6)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname B7)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname GND3)
+     (pintype 7)))
+   (pin 999 12
+    (property 
+     (pinname GND2)
+     (pintype 7)))
+   (pin 999 11
+    (property 
+     (pinname GND1)
+     (pintype 7))))
+  (image 240R_0402_1%
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\RES.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image RES
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\RES.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image mpr7612_2
+   (property 
+    (sourcelib "F:\\XUHY\\MPR-3809\\04-HARDWARE\\2.4G_ROMATE\\24G_REMOTE\\REMOTE.DSN"))
+   (pin 999 2
+    (property 
+     (pinname ECLK)
+     (pintype 1)))
+   (pin 999 1
+    (property 
+     (pinname LED)
+     (pintype 1)))
+   (pin 999 3
+    (property 
+     (pinname BYPASS)
+     (pintype 1)))
+   (pin 999 5
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 7
+    (property 
+     (pinname FSOURCE)
+     (pintype 1)))
+   (pin 999 9
+    (property 
+     (pinname SPI_MOSI)
+     (pintype 1)))
+   (pin 999 11
+    (property 
+     (pinname LED_CTRL)
+     (pintype 1)))
+   (pin 999 4
+    (property 
+     (pinname UART)
+     (pintype 1)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 8
+    (property 
+     (pinname SPI_SCK)
+     (pintype 1)))
+   (pin 999 10
+    (property 
+     (pinname SPI_MISO)
+     (pintype 1)))
+   (pin 999 12
+    (property 
+     (pinname SPI_CS)
+     (pintype 1))))
+  (image L0402_2.7NH_ACX
+   (property 
+    (sourcelib "F:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\RTK SD3\\INDUCTOR.OLB")
+    (VENDER\\PN "ACX\\HI1005-1C2N7SMT"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image NRF51822_3
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname VDD1)
+     (pintype 7)))
+   (pin 999 2
+    (property 
+     (pinname DCC)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname P00)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname P01/AIN2)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname P02/AIN3)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname P03/AIN4)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname P04/AIN5)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname P05/AIN6)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname P06/AIN7)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname P07)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname VDD2)
+     (pintype 7)))
+   (pin 999 13
+    (property 
+     (pinname VSS1)
+     (pintype 7)))
+   (pin 999 14
+    (property 
+     (pinname P08)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname P09)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname P10)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname P11)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname P12)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname P13)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname P14)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname P15)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname P16)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname SWDIO/NRESET)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname SWDCLK)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname P17)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname P18)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname P19)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname ANT1)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname VDD_PA)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname DEC2)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname ANT2)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname VSS2)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname VSS3)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname AVDD1)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname AVDD2)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname XC1)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname XC2)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname DEC1)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname P21)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname P22)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname P23)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname P24)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname P25)
+     (pintype 4)))
+   (pin 999 45
+    (property 
+     (pinname P26/XL2)
+     (pintype 4)))
+   (pin 999 46
+    (property 
+     (pinname P27/XL1)
+     (pintype 4)))
+   (pin 999 47
+    (property 
+     (pinname P28)
+     (pintype 4)))
+   (pin 999 48
+    (property 
+     (pinname P29)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname P30)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname P20)
+     (pintype 4)))
+   (pin 999 49
+    (property 
+     (pinname VSS4)
+     (pintype 7))))
+  (image SWD_CONNECT
+   (property 
+    (sourcelib I:\\CADENCE_LIB\\LIB\\ALLEGROLIB\\LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname SWDIO)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname NC1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname SWCLK)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname NC2)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname VCC)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 4))))
+  (image TP4056_0
+   (property 
+    (sourcelib E:\\PROJECT\\JZCX_1\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname TEMP)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname PROG)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VCC)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname BAT)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname CE)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname /CHARGE)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname /STDBY)
+     (pintype 4))))
+  (image L
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (TC2 0)
+    (TC1 0)
+    (IL2 0)
+    (IL1 0)
+    (DIELECTRIC DSMAX)
+    (CURRENT LMAX)
+    (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 IL1=@IL1 IL2=@IL2|")
+    (DIST FLAT))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image C
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (TC2 0)
+    (TC1 0)
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX)
+    (VC1 0)
+    (VC2 0))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image IND_1
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CAP
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\CAP.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image 100UF_0.3V
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN)
+    (CLASS DISCRETE))
+   (pin 999 1
+    (property 
+     (pinname P)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname N)
+     (pintype 4))))
+  (image CRYSTAL14
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image CRYSTAL_DIP
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\MISC.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CRYSTAL_DIP_0
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname sig1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname sig2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image RES_0
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN)
+    (Tolerance ?)
+    (Wattage ?))
+   (pin 999 1
+    (property 
+     (pinname Pin1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname Pin2)
+     (pintype 4))))
+  (image LN2305
+   (property 
+    (sourcelib I:\\CADENCE_LIB\\LIB\\ALLEGROLIB\\LIBRARY.OLB)
+    (PSpiceTemplate "X^@REFDES %drain %gate %source @MODEL PARAMS: ?DVTH|dVth=@DVTH| ?DRDSON|dRdson=@DRDSON| ?DGFS|dgfs=@DGFS| ?DC|dC=@DC| ")
+    ("Schematics' Source Library" H:\\OptiMOS_p_20V_L1.slb)
+    (DC 0)
+    (DGFS 0)
+    (DRDSON 0)
+    (DVTH 0))
+   (pin 999 d
+    (property 
+     (pinname drain)
+     (pintype 4)))
+   (pin 999 g
+    (property 
+     (pinname gate)
+     (pintype 4)))
+   (pin 999 s
+    (property 
+     (pinname source)
+     (pintype 4))))
+  (image "4 HEADER"
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image USB_MINI_AB_RECEPTACLE
+   (property 
+    (sourcelib Q:\\ORCADCIS\\SYMBOLS\\FCL_CONNECTOR.OLB)
+    (CLASS IO))
+   (pin 999 1
+    (property 
+     (pinname P1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname P2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname P3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname P4)
+     (pintype 4)))
+   (pin 999 S2
+    (property 
+     (pinname SHLD2)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname P5)
+     (pintype 4)))
+   (pin 999 S1
+    (property 
+     (pinname SHLD1)
+     (pintype 4)))
+   (pin 999 S3
+    (property 
+     (pinname SHLD3)
+     (pintype 4)))
+   (pin 999 S4
+    (property 
+     (pinname SHLD4)
+     (pintype 4))))
+  (image "HEADER 2"
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image DIODE_shock_0
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 a
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 k
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image Motor_0
+   (property 
+    (sourcelib J:\\XUHY\\ELECTRISMELL\\XIAOHE\\V30\\ELECTRISMELL.DSN))
+   (pin 999 2
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 1
+    (property 
+     (pinname SIG)
+     (pintype 7))))
+  (image LED
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image "DIODE BREAKDOWN_3"
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 A
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 K
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image Antenna_0
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image VRS0402SR180030N
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\IC.OLB)
+    (CLASS DISCRETE))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image BAT54
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MARVELL_S&A_LIB\\IC.OLB))
+   (pin 999 2
+    (property 
+     (pinname X2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname D3)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname X1)
+     (pintype 4))))
+  (image "SW PUSHBUTTON"
+   (property 
+    (sourcelib D:\\CADENCE\\SPB_16.3\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image MMBT3904LT1_0
+   (property 
+    (sourcelib E:\\PROJECT\\JZCX_1\\HARDWARE\\V50\\ELESMELL_V50.DSN))
+   (pin 999 1
+    (property 
+     (pinname B)
+     (pintype 0)))
+   (pin 999 3
+    (property 
+     (pinname E)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname C)
+     (pintype 4))))
+  (image XL6009E1
+   (property 
+    (sourcelib I:\\CADENCE_LIB\\LIB\\ALLEGROLIB\\LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 2
+    (property 
+     (pinname EN)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname SW)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VIN)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname FB)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname PAD)
+     (pintype 4))))
+  (image Potentiometer_0
+   (property 
+    (sourcelib J:\\XUHY\\GIT_PROJ\\ELECTRISMELL\\HARDWARE\\V50\\ELESMELL_V50.DSN)
+    (SET 0.5)
+    (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}"))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image RT8293B
+   (property 
+    (sourcelib Y:\\02_ORCAD_LIBRARY\\IC.OLB))
+   (pin 999 2
+    (property 
+     (pinname VIN)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname EN)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname SS)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname BOOT)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname SW)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname FB)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname COMP)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname EPAD)
+     (pintype 4)))))
+ (network
+  (net 3V
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C20-1 R32-2 R31-1 C24-1 U7-1 U7-12))
+  (net AVDD
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C17-1 L1-2 C19-1 R31-2 U7-35 U7-36))
+  (net CS1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U4-12 U7-7))
+  (net CS2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U5-12 U7-41))
+  (net CS3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U6-12 U7-40))
+  (net CTS#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-9))
+  (net DCD#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-12))
+  (net DSR#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-10))
+  (net DTR#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-13))
+  (net ECLK_SENSOR1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R18-1 U4-2))
+  (net ECLK_SENSOR2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U5-2 R22-1))
+  (net ECLK_SENSOR3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U6-2 R30-1))
+  (net FAN3V3_PWM
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-18 U7-21))
+  (net GND
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C8-1 Y2-2 U4-6 C9-1 C22-2 C21-1 C23-2 C26-2 C25-2
+     C28-2 C31-2 C27-1 C30-1 C56-2 M6-3 C57-2 M7-3 C59-2
+     C58-2 C55-2 M8-3 C54-2 C41-2 C43-2 C39-2 C44-2 C40-2
+     U12-4 U12-9 C46-2 C45-2 U14-5 U14-8 C60-2 R57-1 R58-2
+     R6-2 U10-1 U10-6 C37-2 C36-2 C34-2 J3-1 C35-2 R42-2
+     J2-5 C33-2 C17-2 C20-2 R33-1 C19-2 C24-2 U5-6 Y3-2
+     C12-1 C11-1 U6-6 C15-1 C14-1 Y4-2 U2-1 D3-1 R48-2
+     R44-2 R43-2 C50-1 R54-1 C49-1 R56-1 U13-1 R53-2 C53-1
+     D7-2 C47-1 C10-1 C13-1 C16-1 J1-4 U3-22 U3-13 U3-12
+     U3-11 R9-2 C2-1 C4-1 C3-1 C5-1 Y6-1 Y6-3 Q1-3
+     U9-1 U9-3 U1-1 U1-2 U1-3 U1-4 U1-7 U8-6 U7-13
+     U7-33 U7-34 U7-49 C32-2 C61-2 C62-2 Y7-1 Y7-3 SW3-1
+     C51-1 C52-1 D12-a))
+  (net KEY
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R4-2 U7-39))
+  (net LED1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R5-2 U7-26))
+  (net MISO
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R11-1 U4-10 U5-10 U6-10 R59-1))
+  (net MOSI
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R10-1 U4-9 U5-9 U6-9 R60-1))
+  (net N145942
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R18-2 Y2-3))
+  (net N146060
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     Y2-1 R13-1))
+  (net N1471352
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U7-4 R60-2))
+  (net N1471354
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U7-6 R59-2))
+  (net N147826
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C18-1 L4-2 U7-32))
+  (net N147903
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     L3-1 C22-1 C23-1 ANT1-1))
+  (net N147933
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C18-2 L3-2 C21-2))
+  (net N148058
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     L4-1 L5-2 U7-31))
+  (net N148249
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     L5-1 C26-1 U7-30))
+  (net N148360
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C25-1 U7-29))
+  (net N559954
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C38-2 U12-3 L7-1))
+  (net N559994
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U12-5 R46-2 R48-1))
+  (net N560058
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C46-1 R47-2))
+  (net N560066
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U12-6 R47-1))
+  (net N560202
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C38-1 U12-1))
+  (net N560416
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U12-7 C45-1 R45-2))
+  (net N560432
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C44-1 U12-8))
+  (net N561038
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U14-1 J4-2 D12-k))
+  (net N561094
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U14-4 R58-1 J4-1))
+  (net N561268
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U14-7 R57-2))
+  (net N562587
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C1-1 R1-2))
+  (net N562595
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R6-1 R4-1 C1-2 SW1-1))
+  (net N567239
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U10-4 C37-1 C36-1 L6-1 R37-2 R38-2))
+  (net N568434
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U10-3 L6-2 D2-A))
+  (net N573610
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U10-5 U11-3 U11-2 R44-1))
+  (net N576249
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D5-2 R40-1))
+  (net N576253
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R39-1 D4-2))
+  (net N5764011
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R42-1 U9-2))
+  (net N576497
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R40-2 U9-6))
+  (net N576517
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R39-2 U9-7))
+  (net N583847
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     L2-2 L1-1))
+  (net N584274
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     L2-1 U7-2))
+  (net N590908
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R22-2 Y3-3))
+  (net N591018
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     Y3-1 R19-1))
+  (net N592181
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     Y4-3 R30-2))
+  (net N592291
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     Y4-1 R26-1))
+  (net N596065
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U7-11))
+  (net N597337
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D1-2 R5-1))
+  (net N627454
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D9-3 R56-2 R55-2 C53-2))
+  (net N627462
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D9-2 R52-1 SW2-1))
+  (net N627728
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R49-2 R53-1 M4-g D6-A))
+  (net N627764
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M5-d M4-d))
+  (net N627800
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R51-1 M5-g Q1-2))
+  (net N627910
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R55-1 Q1-1 SW3-2))
+  (net N6285340
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D7-1 R50-1))
+  (net N629583
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M1-g R14-2))
+  (net N631574
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R20-2 M2-g))
+  (net N631828
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M3-g R27-2))
+  (net N632891
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U6-1 R25-2))
+  (net N633028
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U5-1 R21-2))
+  (net N633180
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U4-1 R15-2))
+  (net N6406911
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-2 R9-1))
+  (net N725444
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U7-44))
+  (net ON
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D9-1 U7-47))
+  (net OSC32IN
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C27-2 Y5-1 U7-45))
+  (net OSC32OUT
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C30-2 Y5-2 U7-46))
+  (net POWER_EN
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U10-2 R43-1 U3-7))
+  (net POWER_EN_3V3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-17 U7-22))
+  (net POWER_KEY
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R54-2 R52-2 U7-48))
+  (net PWM3V3_1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-21 U7-18))
+  (net PWM3V3_2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-20 U7-19))
+  (net PWM3V3_3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-19 U7-20))
+  (net PWM_FAN
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U14-6 U3-6))
+  (net PWM_MOTOR_1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M6-1 U3-3))
+  (net PWM_MOTOR_2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M7-1 U3-4))
+  (net PWM_MOTOR_3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M8-1 U3-5))
+  (net PWR_12V
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C39-1 C40-1 U12-2 C34-1 U11-1 R45-1 L9-2 C32-1 D2-K))
+  (net PWR_3V3
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R11-2 R12-2 R10-2 D1-1 R1-1 R32-1 U2-16 U2-4 C50-2
+     C49-2 U13-2 R50-2 J1-1 U3-23 U3-24 C3-2 C5-2 R2-2
+     R3-2 U1-8 L8-1 U8-5 SW1-2))
+  (net PWR_5V
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C56-1 M6-2 C57-1 M7-2 C59-1 C58-1 C55-1 M8-2 C54-1
+     C41-1 C43-1 L7-2 R46-1 U3-1 C2-2 C4-2))
+  (net PWR_FAN
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U14-2 U14-3 C60-1 L9-1))
+  (net R232
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-15))
+  (net RI#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-11))
+  (net RTS#
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-14))
+  (net RXD
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R7-1 U7-17))
+  (net RX_TEST
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-2 J1-3 R7-2))
+  (net SCK
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R12-1 U4-8 U5-8 U6-8 U7-5))
+  (net SCL
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R2-1 U1-6))
+  (net SDA
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R3-1 U1-5))
+  (net SENSOR_3V3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U3-16 U7-25))
+  (net SENSOR_PWR
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C47-2 L8-2))
+  (net SENSOR_PWR_629577
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     M1-s M2-s M3-s))
+  (net SENSOR_PWR_CTL
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R14-1 R20-1 R27-1 U3-8))
+  (net SEN_INT1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U4-4 U7-3))
+  (net SEN_INT2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U5-4 U7-10))
+  (net SEN_INT3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U6-4 U7-42))
+  (net SPVDD1
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U13-3 M4-s R38-1 C51-2 D6-K))
+  (net SWDCLK
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R33-2 U8-3 U7-24))
+  (net SWDIO
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U8-1 U7-23))
+  (net TXD
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     R8-1 U7-15))
+  (net TX_TEST
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-3 J1-2 R8-2))
+  (net USB5V
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     D5-1 R35-1 D4-1 J2-1 C33-1 D3-2 R49-1 U9-4 U9-8))
+  (net USB_D+
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J2-3 U2-5))
+  (net "USB_D-"
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J2-2 U2-6))
+  (net VBAT
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J3-2 C35-1 R35-2 R51-2 M5-s R37-1 U9-5 SW2-2 C52-2))
+  (net VCC_SENSOR_1
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C8-2 Y2-4 R13-2 U4-5 C9-2 M1-d C10-2 R15-1))
+  (net VCC_SENSOR_2
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U5-5 Y3-4 C12-2 R19-2 C11-2 C13-2 M2-d R21-1))
+  (net VCC_SENSOR_3
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U6-5 C15-2 C14-2 Y4-4 R26-2 M3-d C16-2 R25-1))
+  (net XC1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C31-1 Y6-2 U7-37))
+  (net XC2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     C28-1 Y6-4 U7-38))
+  (net XC_CH340_1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-8 C62-1 Y7-2))
+  (net XC_CH340_2
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     U2-7 C61-1 Y7-4)))
+)
