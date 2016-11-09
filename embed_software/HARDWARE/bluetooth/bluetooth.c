@@ -104,6 +104,8 @@ static u32 analyze_bluetooth_data(u8 *p_data,u16 size)
 	}
     return size;
 }
+
+#define MAX_DATA_LEN 20  //每次
 /****************************************************************************************
  蓝牙数据接收处理函数
 ****************************************************************************************/
@@ -115,7 +117,7 @@ static void receive_data_proc(void)
     u32 i = 0;
     u32 idx = 0;
     u32 size = 0;
-    len = UART_Read(BLUE_TOOTH_DEV,buf,100);
+    len = UART_Read(BLUE_TOOTH_DEV,buf,MAX_DATA_LEN);
     if( len )
     {
 		//InfoPrintf("rec blue tooth data: %s\r\n",buf);
